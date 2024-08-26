@@ -1,0 +1,97 @@
+/* main.css */
+
+/* Basic reset styles */
+body {
+    background-color: #000; /* Black background for the entire page */
+    color: #fff; /* White text color for better contrast */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex; /* Use flexbox for centering content */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styling */
+header {
+    background: #111; /* Slightly lighter black for header background */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%; /* Ensure the header spans the full width */
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+    max-width: 600px; /* Limit width of the main content */
+    width: 100%;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Footer styling */
+footer {
+    background: #111; /* Slightly lighter black for footer background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Ensure the footer spans the full width */
+}
+
+/* Label styling */
+label {
+    display: block; /* Display labels in a block format */
+    margin-bottom: 0.5rem; /* Space between labels */
+}
+
+/* Example form styling */
+form {
+    max-width: 500px;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 1rem;
+    background: #222; /* Dark background for the form */
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666;
+}

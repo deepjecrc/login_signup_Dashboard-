@@ -1,0 +1,29 @@
+/* reset.css */
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styling */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove link underlining */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Set a consistent font-family */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set a consistent line-height */
+body {
+    line-height: 1.6;
+}
